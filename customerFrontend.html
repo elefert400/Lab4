@@ -1,0 +1,31 @@
+<html>
+        <head> 
+                Shop!<br>
+                    <script type="text/javascript" src ="formChecker.js">
+            </script>
+            <link href="style.css" rel="stylesheet"type="text/css">
+        </head>
+        <body>
+            <!--action="customerBackend.php"-->
+                <form action="customerBackend.php" method="post" onsubmit="return formCheck()">
+            Enter a username:
+            <input type="text" name="username" id="username"><br>
+            Enter a password:
+            <input type="password" name="password" id="password"><br>
+            Bananas: 4$
+            <input type="text" name="yes" id="01"><br>
+            Bread: 3$
+            <input type="text" name="man" id="02"><br>
+            Soda: 1$
+            <input type="text" name="soda" id="03"><br>
+            Choice a Shipping option<br>
+            <input type="radio" name="Shipping" value="Free" id="free"> Free!<br>
+            <input type="radio" name="Shipping" value="Express" id="Express"> Express: 5$<br>
+            <input type="radio" name="Shipping" value="Instant" id="instant"> Instant: 20$<br>
+            <input type="reset" value="Reset">
+            <button type="submit">Submit
+            </button>
+                </form>
+        </body>
+
+</html>
