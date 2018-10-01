@@ -1,4 +1,6 @@
 <?php
+echo"<body style='background-color:purple'>";
+
 $username = $_POST["username"];
 $password = $_POST["password"];
 $banana = $_POST["yes"];
